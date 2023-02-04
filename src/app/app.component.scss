@@ -1,0 +1,28 @@
+.container {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  & > div {
+    margin-bottom: 20px;
+  }
+}
+
+mat-card {
+  width: 400px;
+}
+
+mat-chip-listbox {
+  background: pink;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  color: red;
+}
